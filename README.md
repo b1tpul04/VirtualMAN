@@ -19,3 +19,9 @@ Do with the project what you want as long as it doesn't violate the MIT license.
 The virtual machine itself is a register based virtual machine, many people state that a stack based one is easier to program, for me, it is the opposite.</br>
 VirtualMAN hosts a dyncall instance that works stack based and is capable of calling native functions at runtime. In the repository, you'll find a test file</br>
 that contains nothing but VirtualMAN opcodes that pushes strings to the dyncall stack and calls the C puts function.</br>
+
+# How to execute and disassemble
+
+Please note that the test binaries were not created with a personal developed compiler/assembler. I had not enough time left to program one.</br>
+## vman -e test.bin - Execute binary
+## vman -d test.bin - Disassemble binary
